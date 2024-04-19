@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WhiteLagoon.Domain.NewFolder1
+namespace WhiteLagoon.Domain.Entities
 {
     public class Villa
     {
