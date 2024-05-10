@@ -5,11 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Web", "WhiteLagoon.Web\WhiteLagoon.Web.csproj", "{F89F11C3-49E9-4634-AC86-5D34CC636E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Infrastructure", "WhiteLagoon.Infrastructure\WhiteLagoon.Infrastructure.csproj", "{03E31BC4-AE12-440A-AC45-1B10384F7EAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Infrastructure", "WhiteLagoon.Infrastructure\WhiteLagoon.Infrastructure.csproj", "{03E31BC4-AE12-440A-AC45-1B10384F7EAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Domain", "WhiteLagoon.Domain\WhiteLagoon.Domain.csproj", "{8ABEE155-2832-46C2-885C-FA89163D8B6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Application", "WhiteLagoon.Application\WhiteLagoon.Application.csproj", "{1C0B5DF4-8CFB-44F7-908D-5BBDFB076EE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Application", "WhiteLagoon.Application\WhiteLagoon.Application.csproj", "{1C0B5DF4-8CFB-44F7-908D-5BBDFB076EE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Domain", "WhiteLagoon.Domain\WhiteLagoon.Domain.csproj", "{45A5E759-FE6B-4668-ABC9-4FDD17F948DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{03E31BC4-AE12-440A-AC45-1B10384F7EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03E31BC4-AE12-440A-AC45-1B10384F7EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03E31BC4-AE12-440A-AC45-1B10384F7EAB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8ABEE155-2832-46C2-885C-FA89163D8B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8ABEE155-2832-46C2-885C-FA89163D8B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8ABEE155-2832-46C2-885C-FA89163D8B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8ABEE155-2832-46C2-885C-FA89163D8B6E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C0B5DF4-8CFB-44F7-908D-5BBDFB076EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C0B5DF4-8CFB-44F7-908D-5BBDFB076EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C0B5DF4-8CFB-44F7-908D-5BBDFB076EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C0B5DF4-8CFB-44F7-908D-5BBDFB076EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A5E759-FE6B-4668-ABC9-4FDD17F948DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A5E759-FE6B-4668-ABC9-4FDD17F948DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A5E759-FE6B-4668-ABC9-4FDD17F948DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A5E759-FE6B-4668-ABC9-4FDD17F948DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
