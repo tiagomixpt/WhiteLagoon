@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Infrastructure", "WhiteLagoon.Infrastructure\WhiteLagoon.Infrastructure.csproj", "{03E31BC4-AE12-440A-AC45-1B10384F7EAB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Application", "WhiteLagoon.Application\WhiteLagoon.Application.csproj", "{1C0B5DF4-8CFB-44F7-908D-5BBDFB076EE3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{45A5E759-FE6B-4668-ABC9-4FDD17F948DF} = {45A5E759-FE6B-4668-ABC9-4FDD17F948DF}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteLagoon.Domain", "WhiteLagoon.Domain\WhiteLagoon.Domain.csproj", "{45A5E759-FE6B-4668-ABC9-4FDD17F948DF}"
 EndProject
